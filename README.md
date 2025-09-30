@@ -1,11 +1,13 @@
-# Unified Security Tools Suite
+# WBS - WiFi Bluetooth Suite
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![GitHub stars](https://img.shields.io/github/stars/Hessevalentino/WBS.svg)](https://github.com/Hessevalentino/WBS/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/Hessevalentino/WBS.svg)](https://github.com/Hessevalentino/WBS/issues)
 
-🛡️ **Profesionální bezpečnostní nástroje v jedné aplikaci**
+## 🛡️ Unified Security Tools Suite
+
+**WBS (WiFi Bluetooth Suite)** - Profesionální bezpečnostní nástroje v jedné aplikaci
 
 Sjednocená aplikace kombinující dva výkonné bezpečnostní nástroje:
 - **🏷️ PyTAG** - Detektor Apple AirTagů pomocí BLE skenování
