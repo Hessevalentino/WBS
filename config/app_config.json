@@ -1,0 +1,35 @@
+{
+  "app_info": {
+    "name": "Unified Security Tools Suite",
+    "version": "1.0.0",
+    "author": "OK2HSS",
+    "description": "Combined PyTAG and WSS security tools"
+  },
+  "pytag": {
+    "device_timeout": 60,
+    "scan_interval": 1.0,
+    "tx_power": -59,
+    "default_mode": "rich"
+  },
+  "wss": {
+    "interface": "wlan0",
+    "test_host": "8.8.8.8",
+    "scan_interval": 10,
+    "log_dir": "./wifi_logs",
+    "max_log_age_days": 30,
+    "ping_timeout": 5,
+    "connection_timeout": 15,
+    "auto_cleanup": true,
+    "export_format": "json"
+  },
+  "ui": {
+    "use_rich": true,
+    "banner_delay": 1.0,
+    "clear_screen": true
+  },
+  "system": {
+    "check_permissions": true,
+    "auto_detect_interface": true,
+    "verbose_errors": false
+  }
+}

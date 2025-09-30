@@ -1,0 +1,51 @@
+# Unified Security Tools Suite - Dependencies
+# Author: OK2HSS
+# Version: 1.0.0
+#
+# Combined dependencies for:
+# - PyTAG: Apple AirTag detector
+# - WSS: WiFi Scanner Suite
+#
+# Install with: pip install -r requirements.txt
+
+# Core BLE scanning library (for PyTAG)
+bleak>=0.20.0
+
+# Rich terminal UI library (for both PyTAG and WSS)
+rich>=13.0.0
+
+# Standard library dependencies (included with Python)
+# These are listed for documentation purposes:
+# - asyncio (PyTAG BLE scanning)
+# - threading (PyTAG multi-threading)
+# - datetime (both modules)
+# - dataclasses (both modules)
+# - argparse (both modules)
+# - sys, os (both modules)
+# - time (both modules)
+# - subprocess (WSS system commands)
+# - json (WSS configuration and logging)
+# - re (WSS parsing)
+# - pathlib (WSS file handling)
+# - typing (both modules)
+
+# System dependencies (install via package manager):
+# Ubuntu/Debian:
+#   sudo apt update
+#   sudo apt install bluetooth bluez network-manager wireless-tools
+#
+# Fedora/RHEL:
+#   sudo dnf install bluez NetworkManager wireless-tools
+#
+# Arch Linux:
+#   sudo pacman -S bluez networkmanager wireless_tools
+
+# Optional system tools for enhanced functionality:
+# - arp-scan (for WSS network device discovery)
+# - nmap (for WSS network scanning fallback)
+# - iwlist (for WSS RSSI information)
+
+# Development dependencies (optional):
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
